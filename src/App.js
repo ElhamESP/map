@@ -6,11 +6,13 @@ import { SearchControl, OpenStreetMapProvider } from 'leaflet-geosearch';
 
 //var myMap;
 
+const searchControl = new SearchControl({
+    provider: new OpenStreetMapProvider(),
+    style: 'button',
+});
+
 function LocationMarker() {
-    const searchControl = new SearchControl({
-        provider: new OpenStreetMapProvider(),
-        style: 'button',
-    });
+
     const [position, setPosition] = useState(null)
     const map = useMapEvents({
         click() {
@@ -57,7 +59,7 @@ function App() {
 
     return (
 
-        <MapContainer center={{lat:x,lng:y}} zoom={9} scrollWheelZoom={true}>
+        <MapContainer center={{lat:x,lng:y}} zoom={12} scrollWheelZoom={true}>
             <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

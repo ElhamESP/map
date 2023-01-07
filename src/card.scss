@@ -1,0 +1,134 @@
+.container {
+  margin: 50px 0 0 50px;
+  justify-content: center;
+  border-radius: 15px;
+
+  display: flex;
+  background-color: #FFFFFF;
+  width: 852px;
+  height: 138.75px;
+  direction: rtl;
+}
+
+.image-section {
+  align-items: center;
+  margin: 15px 0 0 35px;
+
+}
+
+.home-image {
+  width: 145px;
+  height: 108px;
+  border-radius: 10px;
+
+}
+
+.left-section {
+  padding-top: 15px;
+  margin:0 -8px 0 5px;
+  width: 75%;
+}
+
+.spider-owner-time-address-section {
+  height: 50%;
+  display: flex;
+  background-color: white;
+}
+
+.address-time-section {
+  height: 50%;
+  width: 90%;
+}
+
+.address {
+  font-size: 15px;
+  font-face: IRANYekanMobileFN;
+  font-weight: bold;
+  height: 50%;
+  width: 100%;
+  color: #414141
+}
+
+.time {
+  color: #6B6B6B;
+  height: 50%;
+  font-size: 12px;
+  font-face: IRANYekanMobileFN;
+  margin-top: 12px;
+}
+
+.spider-owner-section {
+  align-items: center;
+  width: 300px;
+  display: inline-flex;
+}
+
+.owner {
+  display: inline-flex;
+  height: 70%;
+  width: 70%;
+  margin-right: 50px;
+  border-left-style: solid;
+  border-left-color: #EEEEEF;
+  border-left-width: 1px;
+}
+.percent{
+  margin-left: 15px;
+  font-size: 20px;
+  color: mediumblue;
+}
+
+.spider {
+  margin-right: 15px;
+  height: 100%;
+  width: 30%;
+
+ }
+
+.features {
+  width: 70%;
+  font-family : IRANYekanMobileFN;
+  font-size: 12px;
+}
+.big-icon-spider{
+  width: 30px;
+  height: 36px;
+}
+.small-icon{
+  margin-right: 15px;
+  width: 13px;
+  height: 13px;
+}
+.type{
+  margin-right: 120px;
+  padding-left: 12px;
+  color: #757886;
+  font-family : IRANYekanMobileFN;
+  font-size: 12px;
+  display: inline-flex;
+  border-left-style: solid;
+  border-left-color: #EEEEEF;
+  border-left-width: 1px;
+}
+.bottom-section{
+  width: 100%;
+  padding-top: 15px;
+  height: 21%;
+  border-top-color: #EEEEEF;
+  border-top-style: solid;
+  border-top-width: 1px;
+  color: #414141;
+  display: inline-flex;
+}
+.owner-phone-section {
+  vertical-align: inherit;
+  font-weight: bolder;
+  width: 300px;
+  display: inline-flex;
+}
+.phone-image{
+  width:38px;
+  height: 38px;
+  margin-right: 15px;
+  margin-left: 15px;
+}

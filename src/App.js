@@ -4,6 +4,7 @@ import './App.css';
 import L from "leaflet";
 import {MapContainer, TileLayer, Marker, Popup, useMapEvents} from 'react-leaflet'
 import {SearchControl, OpenStreetMapProvider} from 'leaflet-geosearch';
+import Card from "./card";
 
 //var myMap;
 
@@ -74,15 +75,16 @@ function App() {
 
 
     return (
-
+        <div className="main-container">
         <MapContainer center={{lat: x, lng: y}} zoom={12} scrollWheelZoom={true}>
             <TileLayer
                 attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-
             <LocationMarker/>
         </MapContainer>
+            <Card/>
+        </div>
 
     );
 }
